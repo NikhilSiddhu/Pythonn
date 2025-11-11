@@ -22,3 +22,4 @@ or """
 a = float(input("What is your no.1 ?"))
 b = float(input("What is your no.2 ?"))
 print(a+b)
+
