@@ -21,5 +21,20 @@ or """
 
 a = float(input("What is your no.1 ?"))
 b = float(input("What is your no.2 ?"))
-print(a+b)
 
+""" print (round(a + b )) """
+
+z = round(a + b)
+
+print(f"{z:,}") # Should add f if want to use as {}. @ Can add comma to the numbers like 1,000 using :,
+
+
+k = float(input("The upper? "))
+l = float(input("The lower? "))
+
+z = round(k/l,2)
+
+""" z = k/l 
+print (f"{z:.2f}")"""#Specify the digits you wanna see after decimal.
+
+print(z)
